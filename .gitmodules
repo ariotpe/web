@@ -1,0 +1,3 @@
+[submodule "webcontent"]
+	path = webcontent
+	url = https://github.com/geckotronics/webcontent.git
