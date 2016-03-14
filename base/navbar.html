@@ -1,0 +1,18 @@
+<!-- Navbar -->
+<nav class="light-blue darken-1">
+  <div class="nav-wrapper">
+    <a href="#!" class="brand-logo">Logo</a>
+    <a href="#" data-activates="mobile-demo" class="asdasd"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+      <li ng-repeat="menu in menus">
+        <a href="{{menu.ruta}}">{{menu.texto}}</a>
+      </li>
+     </ul>
+     <ul class="side-nav" id="mobile-demo">
+       <li ng-repeat="menu in menus">
+         <a href="{{menu.ruta}}">{{menu.texto}}</a>
+       </li>
+     </ul>
+   </div>
+ </nav>
+<script>$(".asdasd").sideNav();</script>
