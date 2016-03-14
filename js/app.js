@@ -4,10 +4,11 @@
 var myApp = angular.module('myApp', ['ngRoute']);
 
 myApp.config(['$routeProvider', function($routeProvider) {
-//  $routeProvider.otherwise({redirectTo: '/view1'});
     $routeProvider.when('/',{
-      templateUrl:'views/base/img_slider.html'
+      templateUrl:'base/img_slider.html'
     });
+
+    $routeProvider.otherwise({redirectTo: '/'});
 }]);
 
 myApp.controller('navbar',function($scope){
