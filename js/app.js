@@ -14,16 +14,24 @@ myApp.config(['$routeProvider', function($routeProvider) {
 myApp.controller('navbar',function($scope){
   $scope.menus = [
     {
-      ruta: '/ruta1',
-      texto: 'M1'
+      ruta: '/',
+      texto: 'INICIO'
     },
     {
-      ruta: '/ruta2',
-      texto: 'M2'
+      ruta: '/nosotros',
+      texto: 'NOSOTROS'
     },
     {
-      ruta: '/ruta3',
-      texto: 'M3'
+      ruta: '/soluciones',
+      texto: 'SOLUCIONES'
+    },
+    {
+      ruta: '/aliados',
+      texto: 'ALIADOS'
+    },
+    {
+      ruta: '/contacto',
+      texto: 'CONTACTO'
     }
   ];
 });
