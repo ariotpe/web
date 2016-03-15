@@ -6,7 +6,7 @@ var myApp = angular.module('myApp', ['ngRoute']);
 myApp.config(['$routeProvider', function($routeProvider) {
     $routeProvider.when('/',{
       templateUrl:'views/inicio.html',
-      controller:'inicio'
+      controller:'inicioCtrl'
     });
 
     $routeProvider.when('/nosotros',{
@@ -28,7 +28,7 @@ myApp.config(['$routeProvider', function($routeProvider) {
     $routeProvider.otherwise({redirectTo: '/'});
 }]);
 
-myApp.controller('navbar',function($scope){
+myApp.controller('navbarCtrl',function($scope){
   $scope.menus = [
     {
       ruta: '#/',
@@ -53,12 +53,12 @@ myApp.controller('navbar',function($scope){
   ];
 });
 
-myApp.controller('footer',function($scope){
+myApp.controller('footerCtrl',function($scope){
   $scope.Email = 'ventas@geckotronics.pe';
   $scope.Website = 'geckotronics.pe';
 });
 
-myApp.controller('inicio',function($scope){
+myApp.controller('inicioCtrl',function($scope){
   $scope.imgs = [
     {
       ruta: 'http://lorempixel.com/580/250/nature/1',
