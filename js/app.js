@@ -1,7 +1,7 @@
 'use strict';
 
 // Declare app level module which depends on views, and components
-var myApp = angular.module('myApp', ['ngRoute']);
+var myApp = angular.module('myApp', ['ngRoute','myApp.Inicio']);
 
 myApp.config(['$routeProvider', function($routeProvider) {
     $routeProvider.when('/',{
@@ -56,33 +56,4 @@ myApp.controller('navbarCtrl',function($scope){
 myApp.controller('footerCtrl',function($scope){
   $scope.Email = 'ventas@geckotronics.pe';
   $scope.Website = 'geckotronics.pe';
-});
-
-myApp.controller('inicioCtrl',function($scope){
-  $scope.imgs = [
-    {
-      ruta: 'http://lorempixel.com/580/250/nature/1',
-      align: 'center',
-      BigTagline: 'Videovigilancia',
-      SmallSlogan: 'Supervisa tu casa desde donde quieras'
-    },
-    {
-      ruta: 'http://lorempixel.com/580/250/nature/2',
-      align: 'left',
-      BigTagline: 'Ahorro de energía',
-      SmallSlogan: 'Supervisa tu casa desde donde quieras'
-    },
-    {
-      ruta: 'http://lorempixel.com/580/250/nature/3',
-      align: 'right',
-      BigTagline: 'Mayor Confort',
-      SmallSlogan: 'Controla tu casa desde botoneras inteligentes o tu teléfono móvil'
-    },
-    {
-      ruta: 'http://lorempixel.com/580/250/nature/4',
-      align: 'center',
-      BigTagline: 'Energías renovables',
-      SmallSlogan: 'Instalación de paneles solares'
-    }
-  ];
 });
