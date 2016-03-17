@@ -3,7 +3,8 @@
 // Declare app level module which depends on views, and components
 var myApp = angular.module('myApp', ['ngRoute',
                       'myApp.Inicio',
-                      'myApp.Aliados']);
+                      'myApp.Aliados',
+                      'myApp.Soluciones']);
 
 myApp.config(['$routeProvider', function($routeProvider) {
     $routeProvider.when('/',{
@@ -16,7 +17,8 @@ myApp.config(['$routeProvider', function($routeProvider) {
     });
 
     $routeProvider.when('/soluciones',{
-      templateUrl:'views/soluciones.html'
+      templateUrl:'views/soluciones.html',
+      controller:'solucionesCtrl'
     });
 
     $routeProvider.when('/aliados',{
