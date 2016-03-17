@@ -1,7 +1,9 @@
 'use strict';
 
 // Declare app level module which depends on views, and components
-var myApp = angular.module('myApp', ['ngRoute','myApp.Inicio']);
+var myApp = angular.module('myApp', ['ngRoute',
+                      'myApp.Inicio',
+                      'myApp.Aliados']);
 
 myApp.config(['$routeProvider', function($routeProvider) {
     $routeProvider.when('/',{
@@ -18,7 +20,8 @@ myApp.config(['$routeProvider', function($routeProvider) {
     });
 
     $routeProvider.when('/aliados',{
-      templateUrl:'views/aliados.html'
+      templateUrl:'views/aliados.html',
+      controller:'aliadosCtrl'
     });
 
     $routeProvider.when('/contacto',{
