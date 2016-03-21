@@ -42,10 +42,10 @@ appInicio.directive('slider', function($document) {
     }
   ];
 
-  var str = '<ul class="slides">';
+  var str = '<ul class="slides responsive-img">';
   for (i = 0; i < sliderImgs.length; i++) {
     var obj = sliderImgs[i];
-    str += '<li><img class="responsive-img" src="'+obj.route+'">';
+    str += '<li><img src="'+obj.route+'">';
     str += '  <div class="caption '+obj.align+'-align">';
     str += '    <h3>'+obj.caption+'</h3>';
     str += '    <h5 class="light grey-text text-lighten-3">'+obj.slogan+'</h5>';
@@ -58,10 +58,10 @@ appInicio.directive('slider', function($document) {
   function linkFunc(scope, elem, attr) {
     $document.ready(function(){
       elem.slider({
-        full_width: false,
-        indicators: true,
-        transition: 1500,
-        interval: 8000
+        full_width: true,
+        indicators: false,
+        transition: 1000,
+        interval: 4000
       });
     });
   }
