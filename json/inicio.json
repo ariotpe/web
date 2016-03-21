@@ -1,0 +1,28 @@
+{
+  "inicioCarousel" : [
+    {
+      "route": "http://lorempixel.com/580/250/nature/1/",
+      "align": "center",
+      "caption": "Videovigilancia",
+      "slogan": "Supervisa tu casa desde donde quieras"
+    },
+    {
+      "route": "http://lorempixel.com/580/250/nature/2/",
+      "align": "left",
+      "caption": "Ahorro de energía",
+      "slogan": "Supervisa tu casa desde donde quieras"
+    },
+    {
+      "route": "http://lorempixel.com/580/250/nature/3",
+      "align": "right",
+      "caption": "Mayor Confort",
+      "slogan": "Controla tu casa desde botoneras inteligentes o tu teléfono móvil"
+    },
+    {
+      "route": "http://lorempixel.com/580/250/nature/4",
+      "align": "center",
+      "caption": "Energías renovables",
+      "slogan": "Instalación de paneles solares"
+    }
+  ]
+}
