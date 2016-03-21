@@ -4,6 +4,33 @@ appInicio.controller('inicioCtrl',function($scope){
 
 });
 
+var sliderImgs = [
+  {
+    'route': 'http://lorempixel.com/580/250/nature/1/',
+    'align': 'center',
+    'caption': 'Videovigilancia',
+    'slogan': 'Supervisa tu casa desde donde quieras'
+  },
+  {
+    'route': 'http://lorempixel.com/580/250/nature/2/',
+    'align': 'left',
+    'caption': 'Ahorro de energía',
+    'slogan': 'Supervisa tu casa desde donde quieras'
+  },
+  {
+    'route': 'http://lorempixel.com/580/250/nature/3',
+    'align': 'right',
+    'caption': 'Mayor Confort',
+    'slogan': 'Controla tu casa desde botoneras inteligentes o tu teléfono móvil'
+  },
+  {
+    'route': 'http://lorempixel.com/580/250/nature/4',
+    'align': 'center',
+    'caption': 'Energías renovables',
+    'slogan': 'Instalación de paneles solares'
+  }
+];
+
 appInicio.directive('slider', function($document) {
   var directive = {
     restrict: 'AC', //Apply the directive through Class or Attribute
@@ -14,33 +41,6 @@ appInicio.directive('slider', function($document) {
     /*templateUrl: 'base/slider.html',*/
     link: linkFunc
   };
-
-  var sliderImgs = [
-    {
-      'route': 'http://lorempixel.com/580/250/nature/1/',
-      'align': 'center',
-      'caption': 'Videovigilancia',
-      'slogan': 'Supervisa tu casa desde donde quieras'
-    },
-    {
-      'route': 'http://lorempixel.com/580/250/nature/2/',
-      'align': 'left',
-      'caption': 'Ahorro de energía',
-      'slogan': 'Supervisa tu casa desde donde quieras'
-    },
-    {
-      'route': 'http://lorempixel.com/580/250/nature/3',
-      'align': 'right',
-      'caption': 'Mayor Confort',
-      'slogan': 'Controla tu casa desde botoneras inteligentes o tu teléfono móvil'
-    },
-    {
-      'route': 'http://lorempixel.com/580/250/nature/4',
-      'align': 'center',
-      'caption': 'Energías renovables',
-      'slogan': 'Instalación de paneles solares'
-    }
-  ];
 
   var str = '<ul class="slides responsive-img">';
   for (i = 0; i < sliderImgs.length; i++) {
@@ -53,13 +53,13 @@ appInicio.directive('slider', function($document) {
     str += '</li>';
   };
   str += '</ul>';
-    $('#GeckoCarousel').html(str);
+  $('#GeckoCarousel').html(str);
 
   function linkFunc(scope, elem, attr) {
     $document.ready(function(){
       elem.slider({
         full_width: true,
-        indicators: false,
+        indicators: true,
         transition: 1000,
         interval: 4000
       });
