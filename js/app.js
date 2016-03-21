@@ -33,7 +33,7 @@ myApp.config(['$routeProvider', function($routeProvider) {
     $routeProvider.otherwise({redirectTo: '/'});
 }]);
 
-myApp.controller('navbarCtrl',function($scope){
+myApp.controller('navbarCtrl',['$scope',function($scope){
   $scope.menus = [
     {
       ruta: '#/',
@@ -56,7 +56,7 @@ myApp.controller('navbarCtrl',function($scope){
       texto: 'CONTACTO'
     }
   ];
-});
+}]);
 
 myApp.controller('footerCtrl',function($scope){
   $scope.Email = 'ventas@geckotronics.pe';
