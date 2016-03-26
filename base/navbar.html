@@ -1,21 +1,28 @@
 <!-- Navbar -->
-<nav class="light-blue darken-1">
-  <div class="nav-wrapper">
+<nav>
+  <div class="nav-wrapper light-blue darken-1">
     <a href="#!" class="brand-logo">Geckotronics</a>
-    <a href="#" data-activates="mobile-demo"
-       class="button-collapse">
+    <a href="#" data-activates="mobile-demo" class="button-collapse">
       <i class="material-icons">menu</i>
     </a>
-    <ul class="right hide-on-med-and-down">
+    <ul  id="slide-out" class="side-nav fixed">
+      <li class="center-align">
+        <img src="img/favicon.ico" width="128">
+      </li>
       <li ng-repeat="menu in menus">
         <a href="{{menu.ruta}}">{{menu.texto}}</a>
       </li>
-     </ul>
-     <ul class="side-nav" id="mobile-demo">
-       <li ng-repeat="menu in menus">
-         <a href="{{menu.ruta}}">{{menu.texto}}</a>
-       </li>
-     </ul>
-   </div>
- </nav>
+    </ul>
+  </div>
+  <div >
+    <ul class="side-nav" id="mobile-demo">
+      <li class="center-align">
+        <img src="img/favicon.ico" width="128">
+      </li>
+      <li ng-repeat="menu in menus">
+        <a href="{{menu.ruta}}">{{menu.texto}}</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 <script>$(".button-collapse").sideNav();</script>

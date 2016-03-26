@@ -1,15 +1,11 @@
 <div class="row">
-  <div class="col s12 m6 offset-m3 l3">
-    <!--<img class="responsive-img"
-       src="https://scontent-mia1-1.xx.fbcdn.net/hphotos-xta1/v/t1.0-9/12642972_1062780593773517_7897305816421868931_n.jpg?oh=803fc348d2c7f3fea80612a203426c11&oe=5789BCA3">
-    -->
-    <img class="responsive-img"
-       src="img/favicon.ico">
+  <div class="col s12 m3 center-align">
+    <img class="responsive-img" src="img/favicon.ico">
   </div>
-  <div class="col s12 l9">
+  <div class="col s12 m9">
     <div class="card-panel grey lighten-5 z-depth-1">
       <div class="row">
-        <div class="col s12"><h3>Nosotros</h3></div>
+        <div class="col s12 blue-text text-darken-2"><h3>Nosotros</h3></div>
         <div class="col s12">
           Somos un equipo de ingenieros altamente capacitado
           y con una amplia experiencia en diseño, instalación
@@ -20,11 +16,12 @@
       </div>
     </div>
   </div>
-
-  <div class="col s12 m12 l6">
+</div>
+<div class="row">
+  <div class="col s12 l6">
     <div class="card-panel grey lighten-5 z-depth-1">
       <div class="row">
-        <div class="col s12"><h3>Misión</h3></div>
+        <div class="col s12 blue-text text-darken-2"><h3>Misión</h3></div>
         <div class="col s12">
           Brindar soluciones a medida según las necesidades
           de nuestros clientes para optimizar el uso de sus
@@ -34,10 +31,10 @@
     </div>
   </div>
 
-  <div class="col s12 m12 l6">
+  <div class="col s12 l6">
     <div class="card-panel grey lighten-5 z-depth-1">
       <div class="row">
-        <div class="col s12"><h3>Visión</h3></div>
+        <div class="col s12 blue-text text-darken-2"><h3>Visión</h3></div>
         <div class="col s12">
           Ser líderes en consultoría, soporte técnico y
           desarrollo de proyectos en seguridad electrónica,
@@ -47,3 +44,26 @@
     </div>
   </div>
 </div>
+
+<!-- Section de Aliados -->
+<span class="blue-text text-darken-2" id="Aliados">
+  <h4>Aliados estratégicos</h4>
+</span>
+
+<ul class="collection" ng-controller="aliadosCtrl">
+  <li ng-repeat="ali in aliados" class="collection-item dismissable">
+    <div class="row">
+      <div class="col s12 l3">
+        <img class="responsive-img" ng-src="{{ali.img}}">
+      </div>
+      <div class="col s12 l9">
+        <div class="row">
+          <div class="col s12"><h5>{{ali.nom}}</h5></div>
+          <div class="col s12">
+            {{ali.descrip}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+</ul>
