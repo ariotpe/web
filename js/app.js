@@ -26,10 +26,6 @@ myApp.config(['$routeProvider', function($routeProvider) {
       controller:'aliadosCtrl'
     });
 
-    $routeProvider.when('/contacto',{
-      templateUrl:'views/contacto.html'
-    });
-
     $routeProvider.otherwise({redirectTo: '/'});
 }]);
 
@@ -38,22 +34,15 @@ myApp.controller('navbarCtrl',['$scope',function($scope){
     {
       ruta: '#/',
       texto: 'INICIO'
-    },
-    {
+    },{
       ruta: '#/nosotros',
       texto: 'NOSOTROS'
-    },
-    {
+    },{
       ruta: '#/soluciones',
       texto: 'SOLUCIONES'
-    },
-    {
+    },{
       ruta: '#/aliados',
       texto: 'ALIADOS'
-    },
-    {
-      ruta: '#/contacto',
-      texto: 'CONTACTO'
     }
   ];
 }]);
