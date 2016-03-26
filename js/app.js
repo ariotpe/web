@@ -21,11 +21,6 @@ myApp.config(['$routeProvider', function($routeProvider) {
       controller:'solucionesCtrl'
     });
 
-    $routeProvider.when('/aliados',{
-      templateUrl:'views/aliados.html',
-      controller:'aliadosCtrl'
-    });
-
     $routeProvider.otherwise({redirectTo: '/'});
 }]);
 
@@ -41,9 +36,13 @@ myApp.controller('navbarCtrl',['$scope',function($scope){
       ruta: '#/soluciones',
       texto: 'SOLUCIONES'
     },{
-      ruta: '#/aliados',
+      ruta: '#/nosotros/#Aliados',
       texto: 'ALIADOS'
     }
+    ,{
+      ruta: 'https://www.facebook.com/geckotronics',
+      texto: 'facebook'
+    },
   ];
 }]);
 
