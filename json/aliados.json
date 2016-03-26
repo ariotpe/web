@@ -1,6 +1,5 @@
 {
-  "aliados":[
-    {
+  "aliados":[{
       "nom": "B-maTic",
       "img": "http://secramperu.com/images/logo-B-matic.jpg",
       "descrip": "Soluciones integrales con tecnología de vanguardia."
@@ -9,7 +8,7 @@
       "nom": "HDL Automation",
       "img": "http://secramperu.com/images/Logo-Hdl.jpg",
       "descrip": "Es una empresa global que fabrica productos \
-         de edificios inteligentes a medida y equipamiento \"
+         de edificios inteligentes a medida y equipamiento \
          de iluminación profesional de escenarios."
     },
     {
