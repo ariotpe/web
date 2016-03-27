@@ -8,10 +8,14 @@
 </span>
 <div class="row" ng-controller="solucionesCtrl">
   <div class="col s12 m6" ng-repeat="sec in sections">
-    <div class="card blue lighten-5">
+    <div class="card small blue lighten-5">
       <div class="card-content">
         <span class ="card-title blue-text text-darken-2">{{sec.title}}</span>
-        <p>{{sec.text}}</p>
+      </div>
+      <div class="row">
+        <div class="col offset-l1 l10">
+          <p>{{sec.text}}</p>
+        </div>
       </div>
       <div class="card-action">
         <a href="#">ver más ...</a>
