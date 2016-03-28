@@ -1,24 +1,28 @@
-<div id="GeckoCarousel" class="slider"></div>
+<div class="section">
+  <div id="GeckoCarousel" class="slider"></div>
+</div>
 
 <div class="divider"></div>
 
 <!-- Tarjetas mostrando soluciones -->
-<span class="blue-text text-darken-2" id="Soluciones">
-  <h4>Soluciones</h4>
-</span>
-<div class="row" ng-controller="solucionesCtrl">
-  <div class="col s12 m6" ng-repeat="sec in sections">
-    <div class="card small blue lighten-5">
-      <div class="card-content">
-        <span class ="card-title blue-text text-darken-2">{{sec.title}}</span>
-      </div>
-      <div class="row">
-        <div class="col offset-l1 l10">
-          <p>{{sec.text}}</p>
+<div class="section" id="Soluciones">
+  <span class="blue-text text-darken-2">
+    <h4>Soluciones</h4>
+  </span>
+  <div class="row" ng-controller="solucionesCtrl">
+    <div class="col s12 m6" ng-repeat="sec in sections">
+      <div class="card small blue lighten-5">
+        <div class="card-content">
+          <span class ="card-title blue-text text-darken-2">{{sec.title}}</span>
         </div>
-      </div>
-      <div class="card-action">
-        <a href="#">ver más ...</a>
+        <div class="row">
+          <div class="col offset-l1 l10">
+            <p>{{sec.text}}</p>
+          </div>
+        </div>
+        <div class="card-action">
+          <a href="#">ver más ...</a>
+        </div>
       </div>
     </div>
   </div>
