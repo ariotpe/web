@@ -33,7 +33,7 @@ myApp.controller('navbarCtrl',['$scope',function($scope){
       ruta: '#/nosotros',
       texto: 'NOSOTROS'
     },{
-      ruta: '#/soluciones',
+      ruta: '#/#Soluciones',
       texto: 'SOLUCIONES'
     },{
       ruta: '#/nosotros/#Aliados',
