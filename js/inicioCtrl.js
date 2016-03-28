@@ -25,7 +25,7 @@ appInicio.directive('slider', function($document) {
       $document.ready(function(){
         elem.slider({
           full_width: false,
-          height:     400,
+          height:     360,
           indicators: true,
           transition: 1000,
           interval:   4000
