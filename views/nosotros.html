@@ -1,69 +1,66 @@
-<div class="row">
-  <div class="col s12 m3 center-align">
-    <img class="responsive-img" src="img/favicon.ico">
-  </div>
-  <div class="col s12 m9">
-    <div class="card-panel grey lighten-5 z-depth-1">
+<div class="section">
+  <span class="blue-text text-darken-2" id="Nosotros">
+    <h4>Nosotros</h4>
+  </span>
+  <p>
+    Somos un equipo de ingenieros altamente capacitado
+    y con una amplia experiencia en diseño, instalación
+    y mantenimiento de casas y edificios inteligentes,
+    además de control de accesos y sistemas de
+    videovigilancia.
+  </p>
+  <ul class="collection" ng-controller="aliadosCtrl">
+    <li class="collection-item dismissable">
       <div class="row">
-        <div class="col s12 blue-text text-darken-2"><h3>Nosotros</h3></div>
-        <div class="col s12">
-          Somos un equipo de ingenieros altamente capacitado
-          y con una amplia experiencia en diseño, instalación
-          y mantenimiento de casas y edificios inteligentes,
-          además de control de accesos y sistemas de
-          videovigilancia.
+        <div class="col s12 l3 blue-text text-darken-2">
+          <h4>Misión</h4>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="row">
-  <div class="col s12 l6">
-    <div class="card-panel grey lighten-5 z-depth-1">
-      <div class="row">
-        <div class="col s12 blue-text text-darken-2"><h3>Misión</h3></div>
-        <div class="col s12">
+        <div class="col s12 l9">
           Brindar soluciones a medida según las necesidades
           de nuestros clientes para optimizar el uso de sus
           recursos y aumentar su productividad.
         </div>
       </div>
-    </div>
-  </div>
-
-  <div class="col s12 l6">
-    <div class="card-panel grey lighten-5 z-depth-1">
+    </li>
+    <li class="collection-item dismissable">
       <div class="row">
-        <div class="col s12 blue-text text-darken-2"><h3>Visión</h3></div>
-        <div class="col s12">
+        <div class="col s12 l3 blue-text text-darken-2">
+          <h4>Visión</h4>
+        </div>
+        <div class="col s12 l9">
           Ser líderes en consultoría, soporte técnico y
           desarrollo de proyectos en seguridad electrónica,
           automatización, domótica e inmótica.
         </div>
       </div>
-    </div>
-  </div>
+    </li>
+  </ul>
 </div>
 
-<!-- Section de Aliados -->
-<span class="blue-text text-darken-2" id="Aliados">
-  <h4>Aliados estratégicos</h4>
-</span>
+<div class="divider"></div>
 
-<ul class="collection" ng-controller="aliadosCtrl">
-  <li ng-repeat="ali in aliados" class="collection-item dismissable">
-    <div class="row">
-      <div class="col s12 l3">
-        <img class="responsive-img" ng-src="{{ali.img}}">
-      </div>
-      <div class="col s12 l9">
-        <div class="row">
-          <div class="col s12"><h5>{{ali.nom}}</h5></div>
-          <div class="col s12">
-            {{ali.descrip}}
+</div>
+<!-- Section de Aliados -->
+<div class="section">
+  <span class="blue-text text-darken-2" id="Aliados">
+    <h4>Aliados estratégicos</h4>
+  </span>
+
+  <ul class="collection" ng-controller="aliadosCtrl">
+    <li ng-repeat="ali in aliados" class="collection-item dismissable">
+      <div class="row">
+        <div class="col s12 l3">
+          <img class="responsive-img" ng-src="{{ali.img}}">
+        </div>
+        <div class="col s12 l9">
+          <div class="row">
+            <div class="col s12"><h5>{{ali.nom}}</h5></div>
+            <div class="col s12">
+              {{ali.descrip}}
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </li>
-</ul>
+    </li>
+  </ul>
+</div>
