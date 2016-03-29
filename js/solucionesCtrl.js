@@ -3,7 +3,7 @@ var appSoluciones = angular.module('myApp.Soluciones',[]);
 var sections = [
   {
     "id": "domotica",
-    "title": "Casas intelegentes - Domótica",
+    "title": "Casas inteligentes - Domótica",
     "text": "Soluciones de control de temperaturas, sistemas \
      de iluminación, apertura y cierre de puertas, cortinas \
      y persianas, además de monitoreo de cámaras de seguridad, \
@@ -23,12 +23,12 @@ var sections = [
   },
   {
     "id": "PanelesSolares",
-    "title": "Energías renovalbes",
+    "title": "Energías renovables",
     "text": "Nuestra solución con paneles solares permite \
      ahorrar dinero en el consumo eléctrico, ya que permite \
-     suminitrar energia a luminarias, sistemas calefactores, \
+     suminitrar energía a luminarias, sistemas calefactores, \
      sistemas de calentamiento de agua, sistemas de \
-     climatización de piscinas, etc. Ésta solución casi \
+     climatización de piscinas, etc. Esta solución casi \
      no requiere de mantenimiento y es de fácil instalación."
   },
   {
@@ -42,7 +42,7 @@ var sections = [
   },
   {
     "id": "iluminacion",
-    "title": "Ilumicación",
+    "title": "Iluminación",
     "text": "Nuestra solucion de iluminacion permite regular \
      la intesidad luminosa (dimerizar) en diversos ambientes \
      de manera local o remota, generando diversos escenarios \
@@ -72,7 +72,7 @@ var sections = [
   },
   {
     "id": "accesos",
-    "title": "Contro de accesos",
+    "title": "Control de accesos",
     "text": "Nuestra solución comprende la instalación de \
     lectores (RFID) de tarjetas (TAG’s) para el control \
     del ingreso de personal por niveles, logrando almacenar \
