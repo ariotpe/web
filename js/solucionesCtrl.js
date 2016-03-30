@@ -29,20 +29,15 @@ var soluciones = [
       }
     ]
   },{
-    "id": "asd",
-    "sec": "Luminarias inteligentes",
+    "id": "confortyeficiencia",
+    "sec": "Confort y Eficiencia Energética",
     "sols": [
       {
         "id": "multimedia",
         "title": "Sistemas Multimedia",
         "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/inicio/domotica.png",
-        "text": "Empresa con reconocida experiencia en el mercado \
-          brindando productos y servicios para aire acondicionado, \
-          refrigeración, ventilación, calefacción, energía e \
-          infraestructura. Elabora, evalúa, diseña, analiza e \
-          implementa las soluciones requeridas por sus clientes."
-      },
-      {
+        "text": ""
+      },{
         "id": "iluminacion",
         "title": "Luminarias Inteligentes",
         "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/inicio/domotica.png",
@@ -52,43 +47,21 @@ var soluciones = [
          de acuerdo al gusto del cliente. Los juegos de \
          iluminacion mas comunes se encuentran en piscinas, \
          escenarios, ambientes caseros, saunas y SPA’s."
-      }
-    ]
-  },{
-    "id": "energia",
-    "sec": "Energías renovables",
-    "sols": [
-      {
-        "id": "panelesSolares",
-        "title": "Paneles Solares",
-        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/inicio/solarpanels.png",
-        "text": "Nuestra solución con paneles solares permite \
-         ahorrar dinero en el consumo eléctrico, ya que permite \
-         suminitrar energía a luminarias, sistemas calefactores, \
-         sistemas de calentamiento de agua, sistemas de \
-         climatización de piscinas, etc. Esta solución casi \
-         no requiere de mantenimiento y es de fácil instalación."
       },{
-        "id": "postesSolares",
-        "title": "Postes Solares",
-        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/inicio/solarpanels.png",
-        "text": "Nuestra solución con paneles solares permite \
-         ahorrar dinero en el consumo eléctrico, ya que permite \
-         suminitrar energía a luminarias, sistemas calefactores, \
-         sistemas de calentamiento de agua, sistemas de \
-         climatización de piscinas, etc. Esta solución casi \
-         no requiere de mantenimiento y es de fácil instalación."
+        "id": "climatización",
+        "title": "Luminarias Inteligentes",
+        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/inicio/domotica.png",
+        "text": ""
       }
     ]
   },{
     "id": "seguridad",
-    "sec": "Seguridad y videovigilancia",
+    "sec": "Sistemas de seguridad y videovigilancia integrados",
     "sols": [
       {
         "id": "alarmas",
         "title": "Sistema de Alarmas",
         "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/inicio/seguridadelectronica.png",
-        "text": "Sistema de alarmas",
         "text": "Nuestros sistemas de alarmas inteligentes por \
         lo general están conectados a sistemas detectores de \
         humo, o sistemas detectores de intrusiones (sensores \
@@ -116,6 +89,37 @@ var soluciones = [
           sistema de cámaras o detectores biométricos para mayor \
           seguridad. Aplicaciones en hospitales, oficinas, \
           colegios, hoteles, etc."
+      },{
+        "id": "seguridadDomotica",
+        "title": "Seguridad Domótica",
+        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/inicio/seguridadelectronica.png",
+        "text": "Integramos las sistemas de seguridad electrónica, \
+        videovigilancia y sistemas de alarmas con los sistemas \
+        domóticos para expandir las prestaciones: Silumación de presencia, \
+        reportes de incendio o robos vía SMS, etc."
+      }
+    ]
+  },{
+    "id": "energia",
+    "sec": "Energías renovables",
+    "sols": [
+      {
+        "id": "panelesSolares",
+        "title": "Paneles Solares",
+        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/inicio/solarpanels.png",
+        "text": "Nuestra solución con paneles sol ares permite \
+         ahorrar dinero en el consumo eléctrico, ya que permite \
+         suminitrar energía a luminarias, sistemas calefactores, \
+         sistemas de calentamiento de agua, sistemas de \
+         climatización de piscinas, etc. Esta solución casi \
+         no requiere de mantenimiento y es de fácil instalación."
+      },{
+        "id": "postesSolares",
+        "title": "Postes Solares",
+        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/inicio/solarpanels.png",
+        "text": "Esta solución es ideal para ilumincaicón pública en\
+        zonas rurales, pistas o carreteras en donde tender cableado\
+        eléctrico es muy costoso, difícil o no recomendado"
       }
     ]
   }
