@@ -16,11 +16,6 @@ myApp.config(['$routeProvider', function($routeProvider) {
       templateUrl:'views/nosotros.html'
     });
 
-    $routeProvider.when('/soluciones',{
-      templateUrl:'views/soluciones.html',
-      controller:'solucionesCtrl'
-    });
-
     $routeProvider.otherwise({redirectTo: '/'});
 }]);
 
@@ -30,19 +25,24 @@ myApp.controller('navbarCtrl',['$scope',function($scope){
       ruta: '#/',
       texto: 'INICIO'
     },{
-      ruta: '#/nosotros',
+      ruta: '#/nosotros/#Nosotros',
       texto: 'NOSOTROS'
-    },{
-      ruta: '#/#Soluciones',
-      texto: 'SOLUCIONES'
     },{
       ruta: '#/nosotros/#Aliados',
       texto: 'ALIADOS'
+    },{
+      ruta: '#/#hba',
+      texto: 'Domótica e Inmótica'
+    },{
+      ruta: '#/#confortyeficiencia',
+      texto: 'Eficiencia energética'
+    },{
+      ruta: '#/#seguridad',
+      texto: 'Seguridad domótica'
+    },{
+      ruta: '#/#energia',
+      texto: 'Enérgias renovables'
     }
-    ,{
-      ruta: 'https://www.facebook.com/geckotronics',
-      texto: 'facebook'
-    },
   ];
 }]);
 
