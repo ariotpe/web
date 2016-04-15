@@ -118,7 +118,7 @@ var soluciones = [
       {
         "id": "panelesSolares",
         "title": "Paneles Solares",
-        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/inicio/solarpanels.png",
+        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/solu/paneles.png",
         "text": "Nuestra solución con paneles sol ares permite \
          ahorrar dinero en el consumo eléctrico, ya que permite \
          suminitrar energía a luminarias, sistemas calefactores, \
