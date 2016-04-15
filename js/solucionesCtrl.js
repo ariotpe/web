@@ -59,7 +59,7 @@ var soluciones = [
       },{
         "id": "oficinas",
         "title": "Soluciones para oficinas",
-        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/inicio/domotica.png",
+        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/solu/oficinas.png",
         "text": "Integramos las soluciones multimedia, iluminación y \
         climatización para ofrecer soluciones a la medida del cliente \
         aportando un mejor ambiente donde trabajar y tener reuniones \
