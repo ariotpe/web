@@ -48,10 +48,18 @@ var soluciones = [
          iluminacion mas comunes se encuentran en piscinas, \
          escenarios, ambientes caseros, saunas y SPA’s."
       },{
-        "id": "climatización",
-        "title": "Luminarias Inteligentes",
+        "id": "climatizacion",
+        "title": "Sistemas de climatización",
         "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/inicio/domotica.png",
         "text": ""
+      },{
+        "id": "oficinas",
+        "title": "Soluciones para oficinas",
+        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/inicio/domotica.png",
+        "text": "Integramos las soluciones multimedia, iluminación y \
+        climatización para ofrecer soluciones a la medida del cliente \
+        aportando un mejor ambiente donde trabajar y tener reuniones \
+        más productivas."
       }
     ]
   },{
