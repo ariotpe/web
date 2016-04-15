@@ -73,7 +73,7 @@ var soluciones = [
       {
         "id": "alarmas",
         "title": "Sistema de Alarmas",
-        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/inicio/seguridadelectronica.png",
+        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/solu/alarmas.png",
         "text": "Nuestros sistemas de alarmas inteligentes por \
         lo general están conectados a sistemas detectores de \
         humo, o sistemas detectores de intrusiones (sensores \
