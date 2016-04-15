@@ -83,7 +83,7 @@ var soluciones = [
       },{
         "id": "videovigilancia",
         "title": "Videovigilancia",
-        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/inicio/seguridadelectronica.png",
+        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/solu/videovigilancia.png",
         "text": "Nuestra solución en videovigilancia comprende \
           la inslatación de cámaras de seguridad interconectadas, \
           que pueden almacenar grandes cantidades de información \
