@@ -50,8 +50,12 @@ var soluciones = [
       },{
         "id": "climatizacion",
         "title": "Sistemas de climatización",
-        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/inicio/domotica.png",
-        "text": ""
+        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/solu/climatizacion.png",
+        "text": "Solución que contempla el control y monitoreo de sistemas \
+        de aire acondicionado para alcanzar la temperatura deseada por el \
+        cliente, generando así mayor confort. Ésta es la solución que \
+        permite el mayor ahorro energético. La regulación de temperatura \
+        y el estado (ON/OFF) se puede hacer desde un dispositivo inteligente."
       },{
         "id": "oficinas",
         "title": "Soluciones para oficinas",
