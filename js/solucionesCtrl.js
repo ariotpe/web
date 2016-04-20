@@ -33,10 +33,13 @@ var soluciones = [
     "sec": "Confort y Eficiencia Energética",
     "sols": [
       {
-        "id": "multimedia",
-        "title": "Sistemas Multimedia",
-        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/inicio/domotica.png",
-        "text": ""
+        "id": "oficinas",
+        "title": "Soluciones para oficinas",
+        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/solu/oficinas.png",
+        "text": "Integramos las soluciones multimedia, iluminación y \
+        climatización para ofrecer soluciones a la medida del cliente \
+        aportando un mejor ambiente donde trabajar y tener reuniones \
+        más productivas."
       },{
         "id": "iluminacion",
         "title": "Luminarias Inteligentes",
@@ -56,14 +59,6 @@ var soluciones = [
         cliente, generando así mayor confort. Ésta es la solución que \
         permite el mayor ahorro energético. La regulación de temperatura \
         y el estado (ON/OFF) se puede hacer desde un dispositivo inteligente."
-      },{
-        "id": "oficinas",
-        "title": "Soluciones para oficinas",
-        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/solu/oficinas.png",
-        "text": "Integramos las soluciones multimedia, iluminación y \
-        climatización para ofrecer soluciones a la medida del cliente \
-        aportando un mejor ambiente donde trabajar y tener reuniones \
-        más productivas."
       }
     ]
   },{
