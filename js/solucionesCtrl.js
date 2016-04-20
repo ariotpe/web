@@ -128,7 +128,7 @@ var soluciones = [
       },{
         "id": "postesSolares",
         "title": "Postes Solares",
-        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/inicio/solarpanels.png",
+        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/solu/postessolares.png",
         "text": "Esta solución es ideal para ilumincaicón pública en\
         zonas rurales, pistas o carreteras en donde tender cableado\
         eléctrico es muy costoso, difícil o no recomendado"
