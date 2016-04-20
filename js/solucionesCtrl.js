@@ -64,6 +64,10 @@ var soluciones = [
   },{
     "id": "seguridad",
     "sec": "Sistemas de seguridad y videovigilancia integrados",
+    "text": "Integramos las sistemas de seguridad electrónica, \
+    videovigilancia y sistemas de alarmas con los sistemas \
+    domóticos para expandir las prestaciones: Silumación de presencia, \
+    reportes de incendio o robos vía SMS, etc.",
     "sols": [
       {
         "id": "alarmas",
@@ -96,14 +100,6 @@ var soluciones = [
           sistema de cámaras o detectores biométricos para mayor \
           seguridad. Aplicaciones en hospitales, oficinas, \
           colegios, hoteles, etc."
-      },{
-        "id": "seguridadDomotica",
-        "title": "Seguridad Domótica",
-        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/inicio/seguridadelectronica.png",
-        "text": "Integramos las sistemas de seguridad electrónica, \
-        videovigilancia y sistemas de alarmas con los sistemas \
-        domóticos para expandir las prestaciones: Silumación de presencia, \
-        reportes de incendio o robos vía SMS, etc."
       }
     ]
   },{
