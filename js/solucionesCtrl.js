@@ -40,7 +40,7 @@ var soluciones = [
       },{
         "id": "iluminacion",
         "title": "Luminarias Inteligentes",
-        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/inicio/domotica.png",
+        "img": "https://raw.githubusercontent.com/geckotronics/webcontent/master/img/solu/iluminacion.png",
         "text": "Nuestra solucion de iluminacion permite regular \
          la intesidad luminosa (dimerizar) en diversos ambientes \
          de manera local o remota, generando diversos escenarios \
